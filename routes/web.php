@@ -29,3 +29,8 @@ Route::group(['prefix' => '/', 'middleware' => ['auth', 'permission']], function
     Route::get('/main/parentMenuId',    'MainController@getParentMenuId');
     Route::get('/main/menuId',          'MainController@getMenuId');
 });
+
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});
