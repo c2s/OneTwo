@@ -209,6 +209,10 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        'Input' => Illuminate\Support\Facades\Input::class,
+
+        'Admin' => App\Facedes\AdminFacedes::class,
+
     ],
 
 ];
